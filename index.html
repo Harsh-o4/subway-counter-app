@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+  
+    <main id="layouts">
+        <h1 id="main_heading">
+            SUBWAY COUNTER
+        </h1>
+        <section id="interface">
+            <h1 id="counter">0</h1>
+            <button id="decrement-btn" onclick="decrease()">
+                -
+            </button>
+            <button id="increment-btn" onclick="increase()">
+                +
+            </button>
+            <br>
+            <button id="save-btn" onclick="log()">
+                Save
+            </button>
+        </section>
+        <section id="total">
+            <h2 id="total_heading">Total</h2>
+            <p id="total_count">0</p>
+        </section>
+        
+
+
+        <section id="prev_entries">
+            <h2 id="prev_heading">Previous Entries</h2>
+            <p id="history">>></p>
+        </section>
+    </main>
+</body>
+
+</html>
